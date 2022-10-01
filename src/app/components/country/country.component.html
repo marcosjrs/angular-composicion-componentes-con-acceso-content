@@ -1,0 +1,9 @@
+<select #country (change)="onChange(country)">
+  <option 
+    *ngFor="let country of countries$ | async" 
+    [value]="country.code"
+    >
+    {{country.name}}
+  </option>
+</select>
+<ng-content></ng-content>

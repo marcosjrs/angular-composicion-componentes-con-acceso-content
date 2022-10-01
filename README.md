@@ -1,6 +1,7 @@
 # ComposicionComponentesConAccesoContent
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+Ejemplo supersencillo de uso de anidamiento de componentes, con acceso a los hijos (renderizados en un ng-content), mediante @ContentChild.
+Ejemplo para la explicación de la diferenciación de @ContentChild vs @ViewContent ;) 
 
 ## Development server
 
